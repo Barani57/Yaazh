@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yaazh Organic Elite Wellness</title>
+  <meta name="description" content="Yaazh Organic Elite Wellness — Pure botanical hair and skin care. Shampoos, soaps, hair oils and serums crafted with nature's finest ingredients." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════ -->
+<header class="yz-nav" id="yzNav">
+  <div class="yz-nav-inner">
+    <a href="#" class="yz-brand" id="yzLogoHome" aria-label="Yaazh home">
+      <img src="assets/images/logo.png" alt="Yaazh Organic Elite Wellness" class="yz-brand-logo" />
+    </a>
+
+    <nav class="yz-nav-links" aria-label="Primary navigation">
+      <a href="#about"    class="yz-nav-link" data-scroll="about">About</a>
+      <a href="#products" class="yz-nav-link" data-scroll="products">Products</a>
+      <a href="#haircare" class="yz-nav-link" data-cat="haircare">Hair Care</a>
+      <a href="#skincare" class="yz-nav-link" data-cat="skincare">Skin Care</a>
+      <a href="#reviews"  class="yz-nav-link" data-scroll="reviews">Reviews</a>
+      <a href="#contact"  class="yz-nav-link" data-scroll="contact">Contact</a>
+    </nav>
+
+    <div class="yz-nav-actions">
+      <button class="yz-cart-btn" id="yzCartBtn" aria-label="Open cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="yz-cart-count" id="yzCartCount" aria-live="polite">0</span>
+      </button>
+      <button class="yz-hamburger" id="yzHamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="yz-mobile-menu" id="yzMobileMenu" aria-hidden="true">
+    <a href="#about"    class="yz-mob-link" data-scroll="about">About</a>
+    <a href="#products" class="yz-mob-link" data-scroll="products">Products</a>
+    <a href="#haircare" class="yz-mob-link" data-cat="haircare">Hair Care</a>
+    <a href="#skincare" class="yz-mob-link" data-cat="skincare">Skin Care</a>
+    <a href="#reviews"  class="yz-mob-link" data-scroll="reviews">Reviews</a>
+    <a href="#contact"  class="yz-mob-link" data-scroll="contact">Contact</a>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════
+     MAIN
+════════════════════════════════════════════════ -->
+<main id="yzMain">
+
+  <!-- ────── VIEW: HOME ────── -->
+  <div id="view-home" class="yz-view active">
+
+    <!-- HERO -->
+    <section class="yz-hero" id="hero">
+      <div class="yz-hero-inner">
+
+        <div class="yz-hero-copy reveal">
+          <p class="yz-hero-eyebrow">100% Organic · Botanical · Wellness</p>
+          <h1 class="yz-hero-title">Nature's finest<br /><em>for your finest</em></h1>
+          <p class="yz-hero-sub">Handcrafted organic formulations blending ancient Tamil botanicals with modern wellness science — for hair and skin that truly thrive.</p>
+          <div class="yz-hero-cta-row">
+            <button class="yz-btn-primary" id="heroShopBtn">Explore Products</button>
+            <a class="yz-btn-ghost yz-wa-link" href="https://wa.me/97455776070?text=Hi%20Yaazh!%20I%20would%20like%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat with us
+            </a>
+          </div>
+          <div class="yz-hero-trust">
+            <span>No Sulphates</span>
+            <span>No Parabens</span>
+            <span>Cruelty Free</span>
+            <span>100% Organic</span>
+          </div>
+        </div>
+
+        <!-- Right: 4:5 product poster carousel -->
+        <div class="yz-hero-carousel-wrap reveal reveal-right">
+          <div class="yz-hero-carousel" id="heroCarousel" aria-label="Product showcase">
+            <!-- slides injected by JS -->
+          </div>
+          <button class="yz-hc-btn yz-hc-prev" id="hcPrev" aria-label="Previous">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="yz-hc-btn yz-hc-next" id="hcNext" aria-label="Next">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="yz-hc-dots" id="hcDots"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="yz-about" id="about">
+      <div class="yz-section-inner">
+        <div class="yz-section-badge reveal">About Us</div>
+        <h2 class="yz-section-title reveal">Where Ancient Wisdom Meets<br /><span>Modern Wellness</span></h2>
+
+        <div class="yz-about-grid">
+          <div class="yz-about-card reveal">
+            <div class="yz-about-icon"></div>
+            <h3>Our Origin</h3>
+            <p>Yaazh Organic Elite Wellness was born from a deep respect for South India's ancient botanical heritage. Our founders, rooted in Tamil tradition, set out to revive time-tested formulations that generations of Tamil families have trusted for hair and skin wellness — bringing them to the world in their purest form.</p>
+          </div>
+          <div class="yz-about-card reveal">
+            <div class="yz-about-icon"></div>
+            <h3>What We Craft</h3>
+            <p>We manufacture 100% organic hair care and skin care products — from botanical shampoos and root revival hair oils to brightening soaps and bio-active serums. Every formula is developed in-house, cold-processed where possible, and rigorously quality-checked before it reaches you.</p>
+          </div>
+          <div class="yz-about-card reveal">
+            <div class="yz-about-icon"></div>
+            <h3>Our Expertise</h3>
+            <p>Our team brings together formulation expertise, Ayurvedic knowledge, and modern cosmetic science. With specialisations in plant-based actives, we craft products that deliver visible results — no sulphates, no parabens, no compromise. Just nature, perfected.</p>
+          </div>
+          <div class="yz-about-card reveal">
+            <div class="yz-about-icon"></div>
+            <h3>Our Promise</h3>
+            <p>We believe wellness is a right, not a luxury. Every Yaazh product is affordably priced, cruelty-free, and formulated for all skin and hair types. From the soil of Tamil Nadu to shelves across the world — we carry nature's intelligence to you, unchanged and uncompromised.</p>
+          </div>
+        </div>
+
+        <div class="yz-about-stats reveal">
+          <div class="yz-stat"><span class="yz-stat-n">30+</span><span class="yz-stat-l">Products</span></div>
+          <div class="yz-stat"><span class="yz-stat-n">100%</span><span class="yz-stat-l">Organic</span></div>
+          <div class="yz-stat"><span class="yz-stat-n">4</span><span class="yz-stat-l">Product Lines</span></div>
+          <div class="yz-stat"><span class="yz-stat-n">0</span><span class="yz-stat-l">Harsh Chemicals</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR PRODUCTS — CATEGORY GRID -->
+    <section class="yz-products-home" id="products">
+      <div class="yz-section-inner">
+        <div class="yz-section-badge reveal">Our Products</div>
+        <h2 class="yz-section-title reveal">Two Worlds of Organic Care</h2>
+        <p class="yz-section-sub reveal">Choose your wellness journey — formulated from the finest botanicals for real, visible results.</p>
+
+        <div class="yz-cat-grid">
+          <button class="yz-cat-card reveal" data-cat="haircare">
+            <div class="yz-cat-emoji"></div>
+            <h3>Hair Care</h3>
+            <p>14 Shampoos · Root Renewal Solutions</p>
+            <div class="yz-cat-tags">
+              <span>Shampoo</span>
+              <span>Root Renewal Solution</span>
+            </div>
+            <span class="yz-cat-cta">Explore →</span>
+          </button>
+
+          <button class="yz-cat-card reveal" data-cat="skincare">
+            <div class="yz-cat-emoji"></div>
+            <h3>Skin Care</h3>
+            <p>10 Soaps · Ambrosia Serums</p>
+            <div class="yz-cat-tags">
+              <span>Soaps</span>
+              <span>Serum</span>
+            </div>
+            <span class="yz-cat-cta">Explore →</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="yz-reviews" id="reviews">
+      <div class="yz-section-inner">
+        <div class="yz-section-badge reveal">What People Say</div>
+        <h2 class="yz-section-title reveal">Loved Across the Globe</h2>
+
+        <div class="yz-reviews-stage">
+          <div class="yz-reviews-track" id="reviewsTrack">
+            <!-- injected by JS -->
+          </div>
+        </div>
+
+        <div class="yz-reviews-ctrl">
+          <button class="yz-rev-arrow" id="revPrev" aria-label="Previous review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="yz-rev-dots" id="revDots"></div>
+          <button class="yz-rev-arrow" id="revNext" aria-label="Next review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="yz-contact" id="contact">
+      <div class="yz-section-inner">
+        <div class="yz-section-badge reveal">Get In Touch</div>
+        <h2 class="yz-section-title reveal">Let's Talk Wellness</h2>
+        <p class="yz-section-sub reveal">Send us your enquiry and we'll reply on WhatsApp within a few hours.</p>
+
+        <div class="yz-contact-grid">
+          <form class="yz-contact-form reveal" id="contactForm" novalidate>
+            <div class="yz-field-row">
+              <div class="yz-field">
+                <label for="ctName">Your Name *</label>
+                <input type="text" id="ctName" placeholder="Full name" required />
+              </div>
+              <div class="yz-field">
+                <label for="ctMobile">Mobile Number *</label>
+                <input type="tel" id="ctMobile" placeholder="+974 xx xxx xxxx" required />
+              </div>
+            </div>
+            <div class="yz-field">
+              <label for="ctEmail">Email Address</label>
+              <input type="email" id="ctEmail" placeholder="your@email.com" />
+            </div>
+            <div class="yz-field">
+              <label for="ctProduct">Product Interest</label>
+              <select id="ctProduct">
+                <option value="">Select a product line…</option>
+                <optgroup label="Hair Care">
+                  <option>Shampoos (14 variants)</option>
+                  <option>Root Renewal Solution</option>
+                </optgroup>
+                <optgroup label="Skin Care">
+                  <option>Soaps (10 variants)</option>
+                  <option>Amudham Serum</option>
+                </optgroup>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="yz-field">
+              <label for="ctMessage">Message</label>
+              <textarea id="ctMessage" rows="4" placeholder="Tell us what you need…"></textarea>
+            </div>
+            <button type="submit" class="yz-btn-wa">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Send via WhatsApp
+            </button>
+          </form>
+
+          <div class="yz-contact-aside reveal">
+            <div class="yz-ci-card">
+              <div class="yz-ci-icon"></div>
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/97455776070" target="_blank" rel="noopener">+974 5577 6070</a>
+            </div>
+            <div class="yz-ci-card">
+              <div class="yz-ci-icon"></div>
+              <h4>We Ship To</h4>
+              <p>Qatar · UAE · KSA · India<br />and worldwide on request</p>
+            </div>
+            <div class="yz-ci-card">
+              <div class="yz-ci-icon"></div>
+              <h4>Response Time</h4>
+              <p>Usually within 2–4 hours<br />on WhatsApp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /view-home -->
+
+  <!-- ────── VIEW: CATEGORY ────── -->
+  <div id="view-category" class="yz-view">
+    <div class="yz-view-inner">
+      <div class="yz-breadcrumb">
+        <button class="yz-back-btn" id="catBackBtn">← Back to Home</button>
+        <span id="catBreadcrumb"></span>
+      </div>
+      <h2 class="yz-view-title" id="catTitle"></h2>
+      <p class="yz-view-sub" id="catSub"></p>
+      <div class="yz-subcat-grid" id="subCatGrid"></div>
+    </div>
+  </div>
+
+  <!-- ────── VIEW: PRODUCT LISTING ────── -->
+  <div id="view-listing" class="yz-view">
+    <div class="yz-view-inner">
+      <div class="yz-breadcrumb">
+        <button class="yz-back-btn" id="listBackBtn">← Back</button>
+        <span id="listBreadcrumb"></span>
+      </div>
+      <h2 class="yz-view-title" id="listTitle"></h2>
+      <p class="yz-view-sub" id="listSub"></p>
+      <div class="yz-product-grid" id="productGrid"></div>
+    </div>
+  </div>
+
+  <!-- ────── VIEW: PRODUCT DETAIL ────── -->
+  <div id="view-detail" class="yz-view">
+    <div class="yz-view-inner">
+      <div class="yz-breadcrumb">
+        <button class="yz-back-btn" id="detailBackBtn">← Back</button>
+        <span id="detailBreadcrumb"></span>
+      </div>
+
+      <div class="yz-detail-layout">
+        <div class="yz-detail-carousel-wrap">
+          <div class="yz-detail-carousel" id="detailCarousel"></div>
+          <div class="yz-dc-thumbs" id="dcThumbs"></div>
+          <button class="yz-dc-btn yz-dc-prev" id="dcPrev" aria-label="Previous poster">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="yz-dc-btn yz-dc-next" id="dcNext" aria-label="Next poster">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+        <div class="yz-detail-info">
+          <p class="yz-detail-tagline" id="detailTagline"></p>
+          <h1 class="yz-detail-name" id="detailName"></h1>
+          <p class="yz-detail-size" id="detailSize"></p>
+          <div class="yz-detail-benefits" id="detailBenefits"></div>
+          <div class="yz-detail-actions">
+            <button class="yz-btn-primary" id="detailAddCart">Add to Cart</button>
+            <button class="yz-btn-wa" id="detailShopNow">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer class="yz-footer">
+  <div class="yz-footer-inner">
+    <div class="yz-footer-brand">
+      <a href="#" id="footerLogoHome">
+        <img src="assets/images/logo.png" alt="Yaazh" class="yz-footer-logo" />
+      </a>
+      <p>Pure botanical wellness from the heart of Tamil Nadu to homes across the world.</p>
+      <a class="yz-footer-wa" href="https://wa.me/97455776070" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        +974 5577 6070
+      </a>
+    </div>
+
+    <div class="yz-footer-links">
+      <h4>Products</h4>
+      <a href="#" data-cat="haircare">Hair Care</a>
+      <a href="#" data-cat="haircare" data-line="shampoo">Shampoos</a>
+      <a href="#" data-cat="haircare" data-line="hairoil">Root Renewal Solution</a>
+      <a href="#" data-cat="skincare">Skin Care</a>
+      <a href="#" data-cat="skincare" data-line="soap">Soaps</a>
+      <a href="#" data-cat="skincare" data-line="serum">Serum</a>
+    </div>
+
+    <div class="yz-footer-links">
+      <h4>Company</h4>
+      <a href="#" data-scroll="about">About Us</a>
+      <a href="#" data-scroll="reviews">Reviews</a>
+      <a href="#" data-scroll="contact">Contact</a>
+      <a href="https://wa.me/97455776070" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+  </div>
+  <div class="yz-footer-bottom">
+    <p>© 2026 Yaazh Organic Elite Wellness. All rights reserved.</p>
+    <p>Crafted by <a href="https://webmint.in" target="_blank" rel="noopener">WebMint Solutions</a></p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="yz-wa-float" href="https://wa.me/97455776070?text=Hi%20Yaazh!%20I'd%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- Cart Drawer -->
+<div class="yz-cart-overlay" id="cartOverlay" aria-hidden="true"></div>
+<aside class="yz-cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="yz-cart-header">
+    <h3>Your Cart</h3>
+    <button class="yz-cart-close" id="cartClose" aria-label="Close cart">×</button>
+  </div>
+  <div class="yz-cart-body" id="cartBody">
+    <p class="yz-cart-empty">Your cart is empty.</p>
+  </div>
+  <div class="yz-cart-footer" id="cartFooter" style="display:none">
+    <div class="yz-cart-total">Total: <strong id="cartTotal">$0</strong></div>
+    <button class="yz-btn-wa yz-cart-checkout" id="cartCheckout">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Checkout via WhatsApp
+    </button>
+  </div>
+</aside>
+
+<!-- Enquiry Modal (Shop Now) -->
+<div class="yz-modal-overlay" id="enquiryOverlay" aria-hidden="true"></div>
+<div class="yz-modal" id="enquiryModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="yz-modal-close" id="enquiryClose" aria-label="Close">×</button>
+  <h3 class="yz-modal-title">Place Your Order</h3>
+  <p class="yz-modal-product-name" id="enquiryProductName"></p>
+  <form id="enquiryForm" novalidate>
+    <div class="yz-field">
+      <label for="enqName">Full Name *</label>
+      <input type="text" id="enqName" placeholder="Your full name" required />
+    </div>
+    <div class="yz-field-row">
+      <div class="yz-field">
+        <label for="enqMobile">Mobile Number *</label>
+        <input type="tel" id="enqMobile" placeholder="+974 xx xxx xxxx" required />
+      </div>
+      <div class="yz-field">
+        <label for="enqPincode">Pincode / ZIP *</label>
+        <input type="text" id="enqPincode" placeholder="Pincode" required />
+      </div>
+    </div>
+    <div class="yz-field">
+      <label for="enqEmail">Email Address</label>
+      <input type="email" id="enqEmail" placeholder="your@email.com" />
+    </div>
+    <div class="yz-field">
+      <label for="enqLocation">City / Location *</label>
+      <input type="text" id="enqLocation" placeholder="City, Country" required />
+    </div>
+    <div class="yz-field">
+      <label for="enqAddress">Delivery Address *</label>
+      <textarea id="enqAddress" rows="3" placeholder="Full delivery address" required></textarea>
+    </div>
+    <button type="submit" class="yz-btn-wa yz-enq-submit">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Send Order via WhatsApp
+    </button>
+  </form>
+</div>
+
+<!-- Lightbox (fullscreen poster viewer) -->
+<div class="yz-lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="yz-lb-close" id="lbClose" aria-label="Close">×</button>
+  <button class="yz-lb-nav yz-lb-prev" id="lbPrev" aria-label="Previous">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <div class="yz-lb-img-wrap">
+    <img id="lbImg" src="" alt="Product poster" />
+  </div>
+  <button class="yz-lb-nav yz-lb-next" id="lbNext" aria-label="Next">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+  <div class="yz-lb-counter" id="lbCounter"></div>
+</div>
+
+<script src="assets/js/products-data.js"></script>
+<script src="assets/js/reviews-data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
