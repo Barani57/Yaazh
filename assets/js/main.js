@@ -722,6 +722,51 @@ function updateCartBadge() {
   $('yzCartCount').dataset.count = count;
 }
 
+/* ── BEFORE/AFTER SLIDER ─────────────────────────────────── */
+// const baState = {};
+// function baSlide(trackId, dotsId, dir) {
+//   if (!baState[trackId]) baState[trackId] = 0;
+//   const track = document.getElementById(trackId);
+//   const dots  = document.getElementById(dotsId);
+//   const total = track.children.length;
+//   baState[trackId] = (baState[trackId] + dir + total) % total;
+//   track.style.transform = `translateX(-${baState[trackId] * 100}%)`;
+//   dots.querySelectorAll('.yz-ba-dot').forEach((d, i) =>
+//     d.classList.toggle('active', i === baState[trackId])
+//   );
+// }
+
+/* ── BEFORE/AFTER DRAG REVEAL SLIDER ────────────────────── */
+function initRevealSlider(wrapperId) {
+  const wrap   = document.getElementById(wrapperId);
+  if (!wrap) return;
+  const after  = wrap.querySelector('.yz-reveal-after');
+  const handle = wrap.querySelector('.yz-reveal-handle');
+  let dragging = false;
+
+  function setPos(x) {
+    const rect = wrap.getBoundingClientRect();
+    let pct = ((x - rect.left) / rect.width) * 100;
+    pct = Math.min(Math.max(pct, 2), 98);
+    after.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
+    handle.style.left = pct + '%';
+  }
+
+  handle.addEventListener('mousedown',  () => dragging = true);
+  handle.addEventListener('touchstart', () => dragging = true, { passive: true });
+  window.addEventListener('mouseup',    () => dragging = false);
+  window.addEventListener('touchend',   () => dragging = false);
+  window.addEventListener('mousemove',  e => { if (dragging) setPos(e.clientX); });
+  window.addEventListener('touchmove',  e => { if (dragging) setPos(e.touches[0].clientX); }, { passive: true });
+
+  setPos(wrap.getBoundingClientRect().left + wrap.getBoundingClientRect().width * 0.5);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initRevealSlider('baReveal1');
+  initRevealSlider('baReveal2');
+});
+
 /* ════════════════════════════════════════════════════════════════
    INIT
 ════════════════════════════════════════════════════════════════ */

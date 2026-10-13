@@ -17,5 +17,7 @@ const YAAZH_REVIEWS = [
   { name: "Khadija S.", location: "Doha, Qatar", initial: "K", text: "The Avarampoo soap has a lovely earthy scent and doesn't dry out my skin like regular soaps do. Already recommended it to my sisters." },
   { name: "Amal F.", location: "Al Khor, Qatar", initial: "A", text: "Skin Food Serum gave my dull winter skin a proper glow back. A little goes a long way, so the bottle lasts longer than I expected." },
   { name: "Roshni B.", location: "Al Rayyan, Qatar", initial: "R", text: "Genuinely impressed with the Organic Soap — my teenage son uses it too and his breakouts have calmed down a lot. Great for the whole family." },
-  { name: "Mahima J.", location: "West Bay, Doha", initial: "M", text: "From ordering to delivery everything was smooth. The hair oil's coconut and hibiscus scent is subtle and not overpowering. Will reorder soon." }
+  { name: "Mahima J.", location: "West Bay, Doha", initial: "M", text: "From ordering to delivery everything was smooth. The hair oil's coconut and hibiscus scent is subtle and not overpowering. Will reorder soon." },
+  { name: "Rismiya A.", location: "Colombo, Sri Lanka", initial: "R", text: "I've tried so many organic products but Yaazh is genuinely different. The Manjistha soap cleared my uneven skin tone within three weeks. My friends keep asking what I changed in my routine — I tell them all about Yaazh!" },
+  { name: "Rihana K.", location: "Dammam, KSA", initial: "R", text: "Ordered the Root Renewal Solution and the Amudham Serum together. After a month of regular use, my hair fall has reduced so much and my skin feels plump and bright every morning. The packaging is premium and delivery was faster than expected. Absolutely worth it!" }
 ];
